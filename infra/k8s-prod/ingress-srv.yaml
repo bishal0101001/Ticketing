@@ -44,7 +44,7 @@ kind: Service
 metadata:
   annotations:
     service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: "true"
-    service.beta.kubernetes.io/do-loadbalancer-hostname: "www.caffeinecentral.online"
+    service.beta.kubernetes.io/do-loadbalancer-hostname: "www.caffeinecentral.online,caffeinecentral.online"
   labels:
     helm.sh/chart: ingress-nginx-2.0.3
     app.kubernetes.io/name: ingress-nginx
